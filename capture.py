@@ -22,7 +22,7 @@ import time
 from picamera2 import Picamera2 #type: ignore
 
 # Camera config (edit here, since the camera is set up at import time).
-automode = False
+automode = True
 WIDTH, HEIGHT = 1920, 1080       # capture resolution
 EXPOSURE_US = 20000              # shutter speed in microsections, None = auto
 '''VERY IMPORTANT, in UK, 50Hz mains, so use multiples of 10ms'''
